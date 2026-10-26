@@ -1,0 +1,29 @@
+{
+ "protocol": [
+  {
+   "p": 0.0,
+   "AUPRC": 0.6993719657406355,
+   "AUROC": 0.978162899233976,
+   "precision": 0.7407407407407407,
+   "recall": 0.8163265306122449,
+   "F1": 0.7766990291262136,
+   "MCC": 0.7772150813257556,
+   "TP": 80.0,
+   "FP": 28.0,
+   "FN": 18.0,
+   "TN": 56836.0
+  }
+ ],
+ "model": "logreg",
+ "tag": "logreg",
+ "seed": 0,
+ "args": {
+  "model": "logreg",
+  "seed": 0,
+  "epochs": 30,
+  "val_fraction": 1.0,
+  "validate_every": 1,
+  "tag": null,
+  "threads": 2
+ }
+}

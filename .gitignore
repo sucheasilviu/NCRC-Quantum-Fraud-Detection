@@ -1,0 +1,26 @@
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+
+# OS & editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw dataset (~150 MB; keep split_indices.npz and results/summary.csv tracked)
+data/*.csv
+creditcard.csv
+
+# Parallel runner logs & temporary bytecode checks
+results/logs/
+.pyc_check

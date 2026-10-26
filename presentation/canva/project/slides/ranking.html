@@ -1,0 +1,8 @@
+<section id="ranking" data-transition="fade" style="background:#F7F6F2;color:#24212F;font-family:Arial, sans-serif;padding:112px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:30px;font-weight:700;color:#7555DE">03</p>
+<h2 style="font-size:66px;font-weight:700;line-height:1.1;color:#24212F">Fraud ranking did not move under noise</h2>
+<img src="/_blob/8dfb9ef6031d738635bfc4152c51b053" alt="Bar charts of test AUPRC at gate noise p = 0.01 and p = 0.05, mean and spread over five seeds. p = 0.01: Linear 0.703, Original VQC 0.564, Entangled NCRC 0.744, NCRC 0.735. p = 0.05: Linear 0.703, Original VQC 0.405, Entangled NCRC 0.712, NCRC 0.735." style="width:1664px;height:600px;object-fit:contain">
+<p style="font-size:30px;color:#24212F;line-height:1.35">At p = 0.05: ours 0.735 ± 0.017, the original VQC 0.405 ± 0.177. Ours is identical at every noise level.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#706A7C">AUPRC: higher is better · mean ± standard deviation across 5 training seeds · full test set</p>
+<aside>Speaking time: 0:55 to 1:45. SAY: AUPRC tells us how well frauds rank above legitimate payments across all alert thresholds; higher is better. Under stronger noise the original VQC falls to 0.405 and its spread across seeds grows to 0.177. The entangled version slips to 0.712. Ours stays at 0.735 at both noise levels, exactly, with a spread of 0.017, and above logistic regression’s 0.703, which has no gates so noise cannot touch it. Source: results/raw, five seeds.</aside>
+</section>

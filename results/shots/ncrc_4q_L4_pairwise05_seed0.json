@@ -1,0 +1,151 @@
+{
+ "model": "ncrc_4q_L4_pairwise05",
+ "seed": 0,
+ "shots": 1024,
+ "shot_method": "independent_per_wire_simulated",
+ "excluded_joint_readout_models": [
+  "ncrc_4q_L4_cnot"
+ ],
+ "rows": [
+  {
+   "p": 0.0,
+   "repeat": 0,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7527025969232339,
+   "Spearman rho shots vs clean": 0.893610279667717
+  },
+  {
+   "p": 0.0,
+   "repeat": 1,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7550710636821262,
+   "Spearman rho shots vs clean": 0.8924994542759174
+  },
+  {
+   "p": 0.0,
+   "repeat": 2,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7561050797975989,
+   "Spearman rho shots vs clean": 0.8930659920407207
+  },
+  {
+   "p": 0.0,
+   "repeat": 3,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7506140745489281,
+   "Spearman rho shots vs clean": 0.893696804963402
+  },
+  {
+   "p": 0.0,
+   "repeat": 4,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7561401013625838,
+   "Spearman rho shots vs clean": 0.8940757803902855
+  },
+  {
+   "p": 0.001,
+   "repeat": 0,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7551080998243156,
+   "Spearman rho shots vs clean": 0.8918866122357331
+  },
+  {
+   "p": 0.001,
+   "repeat": 1,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7574953977039413,
+   "Spearman rho shots vs clean": 0.8918847614129133
+  },
+  {
+   "p": 0.001,
+   "repeat": 2,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7561196567013474,
+   "Spearman rho shots vs clean": 0.8920526021346831
+  },
+  {
+   "p": 0.001,
+   "repeat": 3,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7611219148458854,
+   "Spearman rho shots vs clean": 0.8925657267300956
+  },
+  {
+   "p": 0.001,
+   "repeat": 4,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7554967422316099,
+   "Spearman rho shots vs clean": 0.8916250449949534
+  },
+  {
+   "p": 0.01,
+   "repeat": 0,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7564589725400671,
+   "Spearman rho shots vs clean": 0.88105066150224
+  },
+  {
+   "p": 0.01,
+   "repeat": 1,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7588044166275967,
+   "Spearman rho shots vs clean": 0.880143376095925
+  },
+  {
+   "p": 0.01,
+   "repeat": 2,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7553380408564845,
+   "Spearman rho shots vs clean": 0.8811998288528142
+  },
+  {
+   "p": 0.01,
+   "repeat": 3,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7560809072438829,
+   "Spearman rho shots vs clean": 0.8809375645416714
+  },
+  {
+   "p": 0.01,
+   "repeat": 4,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7635828077479885,
+   "Spearman rho shots vs clean": 0.8802845872010695
+  },
+  {
+   "p": 0.05,
+   "repeat": 0,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7489967646574234,
+   "Spearman rho shots vs clean": 0.8289434454799339
+  },
+  {
+   "p": 0.05,
+   "repeat": 1,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7513692629027684,
+   "Spearman rho shots vs clean": 0.8279904983203418
+  },
+  {
+   "p": 0.05,
+   "repeat": 2,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7489949198500181,
+   "Spearman rho shots vs clean": 0.8280219919292613
+  },
+  {
+   "p": 0.05,
+   "repeat": 3,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.746951690976381,
+   "Spearman rho shots vs clean": 0.8280251071845677
+  },
+  {
+   "p": 0.05,
+   "repeat": 4,
+   "AUPRC exact": 0.7551384602734932,
+   "AUPRC shots": 0.7594658710739961,
+   "Spearman rho shots vs clean": 0.8241252951249902
+  }
+ ]
+}

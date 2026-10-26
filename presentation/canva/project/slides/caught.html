@@ -1,0 +1,8 @@
+<section id="caught" data-transition="fade" style="background:#F7F6F2;color:#24212F;font-family:Arial, sans-serif;padding:112px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:30px;font-weight:700;color:#7555DE">05</p>
+<h2 style="font-size:66px;font-weight:700;line-height:1.1;color:#24212F">78 frauds caught, at any noise level</h2>
+<img src="/_blob/6f4b76fb4f775b95ac4baf2596a865b8" alt="Every one of the 98 test frauds and 500 legitimate payments, plotted as fraud score minus the alert threshold for NCRC at p = 0.05, seed 0. 78 frauds sit above the threshold and are caught, 20 below are missed; legitimate payments sit well below." style="width:1664px;height:600px;object-fit:contain">
+<p style="font-size:30px;color:#24212F;line-height:1.35">Green stars are above the alert threshold and caught; purple stars are missed. Seed 0: 78 of 98 caught, 20 missed, the same at p = 0 and p = 0.05. Linear catches 80.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#706A7C">All 98 frauds + 500 legitimate payments shown for readability · metrics use all 56,962 · threshold chosen on validation</p>
+<aside>Speaking time: 2:20 to 2:55. SAY: Each star is a real test fraud. Green stars are above the alert threshold and caught; purple stars are below it and missed; grey dots are legitimate payments. In seed 0 our model catches 78 of 98 frauds at every noise level, because the threshold, chosen on validation data, moves with the uniform shrink. The honest comparison: linear catches 80 with 28 false alarms; ours 78 with 42 in this seed; averaged over five seeds ours flags 27. Source: results/demo/seed0.npz.</aside>
+</section>

@@ -1,0 +1,8 @@
+<section id="a_threshold" data-transition="fade" style="background:#F7F6F2;color:#24212F;font-family:Arial, sans-serif;padding:112px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:30px;font-weight:700;color:#7555DE">13</p>
+<h2 style="font-size:66px;font-weight:700;line-height:1.1;color:#24212F">All frauds relative to the alert threshold</h2>
+<img src="/_blob/9ef937eda233db3085bbbb390719f200" alt="Eight panels, four models by two noise levels, seed 0: every test fraud and 500 legitimate payments as score minus threshold. Caught counts: Linear 80, Original 65 then 58, Entangled 76 then 74, NCRC 78 at both." style="width:1664px;height:640px;object-fit:contain">
+<p style="font-size:30px;color:#24212F;line-height:1.35">Green stars were caught; purple stars were missed. Every test fraud is shown, for every model and both noise levels.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#706A7C">Seed 0 · all 98 frauds + 500 legitimate payments for display · metrics use the full test set</p>
+<aside>APPENDIX FOR REHEARSAL AND QUESTIONS. READ: the dashed line is the alert threshold; zero is the boundary for every model because each axis subtracts that model’s own threshold. FINDING: at p = 0.05 linear catches 80, the original 58, entangled 74, ours 78. The original’s points crowd close to the line under noise, which is why shot noise later overwhelms it. LIMIT: a display sample of legitimate payments; one seed.</aside>
+</section>

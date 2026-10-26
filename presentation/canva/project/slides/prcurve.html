@@ -1,0 +1,8 @@
+<section id="prcurve" data-transition="fade" style="background:#F7F6F2;color:#24212F;font-family:Arial, sans-serif;padding:112px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:30px;font-weight:700;color:#7555DE">04</p>
+<h2 style="font-size:66px;font-weight:700;line-height:1.1;color:#24212F">Precision and recall</h2>
+<img src="/_blob/bc727d6f76e8c4d8fe1c8f85adeae4b5" alt="Precision against recall on the full test set for seed 0 at p = 0.01 and p = 0.05. Average precision: Linear 0.699 at both; Original VQC 0.497 then 0.421; Entangled NCRC 0.725 then 0.722; NCRC 0.727 at both." style="width:1664px;height:600px;object-fit:contain">
+<p style="font-size:30px;color:#24212F;line-height:1.35">Recall = share of frauds caught. Precision = share of alerts that are real fraud. At the same recall, higher precision means fewer false alarms; AUPRC summarises the curve.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#706A7C">Seed 0 · full test set · moving the alert threshold draws the curve</p>
+<aside>Speaking time: 1:45 to 2:20. SAY: Recall is the share of frauds we catch; precision is the share of alerts that are really fraud, so precision 0.8 means eight real frauds in ten alerts. Moving the alert threshold draws the curve, and AUPRC summarises it. In this seed ours keeps exactly the same curve at both noise levels, average precision 0.727, while the original VQC’s curve sinks from 0.497 to 0.421. We plot one fixed seed; headline numbers average five. Source: src/demo_seed0.py, results/demo/seed0.npz.</aside>
+</section>
